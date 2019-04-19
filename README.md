@@ -9,19 +9,19 @@ Links to [presentation slides](https://docs.google.com/presentation/d/1nBkYq5ItA
 ## Directory Structure
 ```
 .
-├── Processed_data                        # datasets used
+├── Processed_data                    # datasets used
 │   ├── dress_info.csv
 │   └── ...                 
 ├── cropped                        			# folder of cropped images
 │   └── ...                 
 ├── images                         			# raw images scraped
 │   └── ...                 
-├── Background Removal.ipynb      	# NNs for removing background
-├── Data Collection.ipynb      			# Scraping Chictopia
-├── Tags NLP.ipynb      					# NLP algorithms for preprocessing labels
-├── Simple CNN model.ipynb      	# CNN model for predicting tags on images
-├── requirements.txt 				     	# Pip requirements file
-├── conda_env.yaml				      	# Anaconda env YAML file
+├── Background Removal.ipynb      	   # NNs for removing background
+├── Data Collection.ipynb      			    # Scraping Chictopia
+├── Tags NLP.ipynb      					         # NLP algorithms for preprocessing labels
+├── Simple CNN model.ipynb      	     # CNN model for predicting tags on images
+├── requirements.txt 				     	       # Pip requirements file
+├── conda_env.yaml				      	         # Anaconda env YAML file
 └── README.md
 ```
 
