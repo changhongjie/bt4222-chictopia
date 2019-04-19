@@ -21,14 +21,14 @@ Links to [presentation slides](https://docs.google.com/presentation/d/1nBkYq5ItA
 ├── Tags NLP.ipynb
 ├── Simple CNN model.ipynb
 ├── requirements.txt
-├── conda_env.yaml
+├── chictopia_conda_env.yml
 └── README.md
 ```
 
 ## Requirements
 
 Recommend setting up the Anaconda environment using conda_env.yaml. There are some conflicting version dependencies for Numpy across the libraries used, but no known errors with using numpy=v1.16.
-Pip's requirements.txt provided as well.
+Pip's requirements.txt provided as well, but Anaconda's YAML file is likely more reliable.
 
 
 ## Description of Notebooks
@@ -48,7 +48,10 @@ Pip's requirements.txt provided as well.
 
 ## Notes & Credits
 __Things to note:__
-* Anaconda v4.5.11 was used to build and test the notebooks on a Windows 64-bit machine, with a nVidia 940M GPU for the NNs.
+* Tested on :
+  * Anaconda v4.5.11
+  * Python 3.5
+  * Windows 64-bit machine with a nVidia 940M GPU
 * The images uploaded here are a small sample of our original dataset. We uploaded the original dataset to Google Cloud Storage for AutoML.
 * AutoML was used in building the final models. We compare its performance in our report above.
 * The outputs of Tags NLP are uploaded to Google Cloud Storage as the labels table.
