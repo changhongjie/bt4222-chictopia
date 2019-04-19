@@ -48,7 +48,7 @@ Pip's requirements.txt provided as well.
 
 ## Notes & Credits
 __Things to note:__
-* Anaconda v4.5.11 was used to build and test the notebooks
+* Anaconda v4.5.11 was used to build and test the notebooks on a Windows 64-bit machine, with a nVidia 940M GPU for the NNs.
 * The images uploaded here are a small sample of our original dataset. We uploaded the original dataset to Google Cloud Storage for AutoML.
 * AutoML was used in building the final models. We compare its performance in our report above.
 * The outputs of Tags NLP are uploaded to Google Cloud Storage as the labels table.
