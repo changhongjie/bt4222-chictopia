@@ -7,7 +7,7 @@ Links to [presentation slides](https://docs.google.com/presentation/d/1nBkYq5ItA
 [report](https://docs.google.com/document/d/1R2MiG0BAvXMWWo6ca8vRD92-3tDowzkcMbZIoWE_CDo/edit?usp=sharing).
 
 ## Directory Structure
-
+`
 .
 ├── Processed_data                        # datasets used
 │   ├── dress_info.csv        
@@ -23,7 +23,7 @@ Links to [presentation slides](https://docs.google.com/presentation/d/1nBkYq5ItA
 ├── requirements.txt 				     	# Pip requirements file
 ├── conda_env.yaml				      	# Anaconda env YAML file
 └── README.md
-
+`
 
 ## Requirements
 
