@@ -27,7 +27,7 @@ Links to [presentation slides](https://docs.google.com/presentation/d/1nBkYq5ItA
 
 ## Requirements
 
-Recommend setting up the Anaconda environment using conda_env.yaml. There are some conflicting version dependencies for Numpy across the libraries used, but no known errors with using numpy=v1.16.
+Recommend setting up the Anaconda environment using `conda env create --file chictopia_conda_env.yml`. There are some conflicting version dependencies for Numpy across the libraries used, but no known errors with using numpy=v1.16.
 Pip's requirements.txt provided as well, but Anaconda's YAML file is likely more reliable.
 
 
