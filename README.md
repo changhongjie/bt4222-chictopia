@@ -9,7 +9,7 @@ Links to [presentation slides](https://docs.google.com/presentation/d/1nBkYq5ItA
 ## Directory Structure
 ```
 .
-├── Processed_data
+├── Processed_Data
 │   ├── dress_info.csv
 │   └── ...                 
 ├── cropped
@@ -40,7 +40,7 @@ Pip's requirements.txt provided as well.
   * Purpose - Automated cropping of photo backgrounds using pre-trained Object Detection networks
   * Output - images in `./cropped/`
 * `Tags NLP.ipynb`: 
-  * Purpose - Preprocess Tag labels using various NLP algorithms
+  * Purpose - Preprocess Tag labels using various NLP algorithms, in AutoML format.
   * Output - `<algorithm>_<drop_threshold>.csv`, e.g. `combine_10.csv`
 * `Simple CNN model.ipynb`:
   * Purpose - Model for predicting style tags on images, used to compare against AutoML results
@@ -48,8 +48,11 @@ Pip's requirements.txt provided as well.
 
 ## Notes & Credits
 __Things to note:__
-* Anaconda v4.5.11 was used to build and test the notebooks
+* Anaconda v4.5.11 was used to build and test the notebooks on a Windows 64-bit machine, with a nVidia 940M GPU for the NNs.
+* The images uploaded here are a small sample of our original dataset. We uploaded the original dataset to Google Cloud Storage for AutoML.
 * AutoML was used in building the final models. We compare its performance in our report above.
+* The outputs of Tags NLP are uploaded to Google Cloud Storage as the labels table.
+* Our trained CNN model could not be uploaded here as it was larger than 100Mb. Please let me know if you want the model.
 
 __Credits:__
 * Zhao Yiliang, for his advice and guidance
