@@ -74,6 +74,6 @@ traitlets==4.3.2
 urllib3==1.22
 wasabi==0.2.1
 wcwidth==0.1.7
-Werkzeug==0.15.2
+Werkzeug==0.15.3
 win-unicode-console==0.5
 wincertstore==0.2
