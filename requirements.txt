@@ -38,7 +38,7 @@ mkl-fft==1.0.6
 mkl-random==1.0.1
 murmurhash==1.0.2
 mxnet-cu90==1.4.0.post0
-numpy==1.15.2
+numpy==1.22.0
 pandas==0.23.4
 parso==0.4.0
 pickleshare==0.7.5
